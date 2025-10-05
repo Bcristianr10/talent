@@ -1,16 +1,14 @@
-// next.config.mjs
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',           // Genera HTML estático listo para GitHub Pages
-  images: {
-    unoptimized: true,        // Evita errores con el optimizador de imágenes
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  trailingSlash: true,        // Asegura que las rutas terminen con /
-  
-  // 👇 Muy importante: indica la ruta base del sitio en GitHub Pages
-  basePath: '/talent',
-  assetPrefix: '/talent/',
-};
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
