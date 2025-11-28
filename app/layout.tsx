@@ -14,11 +14,16 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Yaneth Pérez | Gestión y Selección de Talento Humano",
+  title: "RS Human Talent | Reclutamiento y Selección de personal humano",
   description:
     "Servicios profesionales en selección y gestión de talento humano. Conectando el talento correcto con las oportunidades correctas.",
-  generator: "v0.app",
+  generator: "mvp.solutions.507",
+  icons: {
+    icon: "/logo.ico",
+    shortcut: "/logo.ico",
+  },
 }
+
 
 export default function RootLayout({
   children,

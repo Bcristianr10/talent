@@ -9,25 +9,25 @@ const services = [
     icon: Users,
     title: "Reclutamiento Especializado",
     description:
-      "Procesos de búsqueda y selección adaptados a las necesidades específicas de tu organización, garantizando candidatos de alto nivel.",
+      "Identificamos y atraemos a los candidatos más calificados para diversas áreas y niveles profesionales, garantizando perfiles alineados a las necesidades estratégicas de su empresa.",
   },
   {
     icon: Target,
     title: "Evaluación por Competencias",
     description:
-      "Análisis profundo de habilidades técnicas y blandas mediante herramientas especializadas para asegurar el mejor ajuste cultural.",
+      "Aplicamos entrevistas por competencias, pruebas psicométricas y verificación de referencias para asegurar un análisis riguroso del perfil técnico y conductual del candidato.",
   },
   {
     icon: TrendingUp,
-    title: "Asesoría en Gestión de Talento",
+    title: "Optimización del Proceso de Selección",
     description:
-      "Consultoría estratégica para optimizar tus procesos de recursos humanos y desarrollar el potencial de tu equipo.",
+      "Diseñamos procesos eficientes que permiten reducir tiempos de contratación, mejorar la calidad del talento incorporado y disminuir la rotación dentro de la organización.",
   },
   {
     icon: Briefcase,
     title: "Selección Ejecutiva",
     description:
-      "Headhunting especializado para posiciones de liderazgo y alta dirección con metodología confidencial y efectiva.",
+      "Headhunting confidencial enfocado en posiciones estratégicas, gerenciales y de alta dirección, garantizando la identificación de líderes con visión y alto desempeño.",
   },
 ]
 
@@ -59,7 +59,7 @@ export function ServicesSection() {
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">Servicios</h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Soluciones integrales en gestión de talento humano diseñadas para tu éxito
+            Soluciones profesionales de reclutamiento y selección diseñadas para fortalecer el crecimiento de su empresa
           </p>
         </div>
 

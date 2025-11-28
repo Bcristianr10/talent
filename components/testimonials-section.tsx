@@ -7,21 +7,21 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     name: "María González",
-    position: "Directora de RRHH",
-    company: "Empresa Tecnológica",
-    text: "Yaneth transformó completamente nuestro proceso de selección. Su profesionalismo y dedicación nos ayudaron a encontrar el talento que necesitábamos.",
+    position: "Directora de Recursos Humanos",
+    company: "Grupo Empresarial del Pacífico",
+    text: "RS Human Talent optimizó nuestro proceso de reclutamiento de manera extraordinaria. Su capacidad para identificar talento alineado a nuestra cultura organizacional marcó una diferencia significativa.",
   },
   {
     name: "Carlos Mendoza",
     position: "CEO",
-    company: "Startup Innovadora",
-    text: "El enfoque personalizado y estratégico de Yaneth fue clave para construir nuestro equipo fundador. Altamente recomendada.",
+    company: "InnovaTech Solutions",
+    text: "El profesionalismo y la rigurosidad metodológica del equipo de RS Human Talent fueron claves para conformar nuestro equipo estratégico. Su acompañamiento superó nuestras expectativas.",
   },
   {
     name: "Ana Rodríguez",
     position: "Gerente General",
-    company: "Corporación Internacional",
-    text: "Trabajar con Yaneth fue una experiencia excepcional. Su ética profesional y resultados hablan por sí solos.",
+    company: "Corporación Multisectorial Centroamérica",
+    text: "La experiencia con RS Human Talent fue impecable. Su ética, compromiso y capacidad para presentar candidatos altamente calificados resultaron fundamentales para nuestras operaciones.",
   },
 ]
 
@@ -53,7 +53,7 @@ export function TestimonialsSection() {
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">Casos de Éxito</h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Lo que dicen quienes han confiado en mis servicios
+            Testimonios de empresas que han confiado en nuestra experiencia
           </p>
         </div>
 

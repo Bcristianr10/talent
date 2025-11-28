@@ -14,9 +14,8 @@ export function HeroSection() {
   const scrollToContact = () => {
     document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })
   }
-
-  const whatsappLink =
-    "https://wa.me/50700000000?text=Hola%20Yaneth%2C%20quiero%20más%20información%20sobre%20tus%20servicios"
+const whatsappLink =
+    "https://wa.me/50768943612?text=Hola%2C%20quisiera%20recibir%20información%20sobre%20los%20servicios%20de%20RS%20Human%20Talent"
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-background">
@@ -30,20 +29,20 @@ export function HeroSection() {
           <div className={`space-y-8 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             <div className="space-y-4">
               <p className="text-primary font-medium tracking-wide uppercase text-sm">
-                Gestión y Selección de Talento Humano
+                RS Human Talent                
               </p>
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
                 Conectando el talento correcto con las oportunidades correctas
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
-                Servicios profesionales en selección y gestión de talento humano.
+                Reclutamiento y selección  de personal humano.
               </p>
             </div>
 
             {/* Inspirational quote */}
             <div className="border-l-4 border-primary pl-6 py-2">
               <p className="text-lg italic text-foreground/80 text-pretty">
-                "Encontrar el talento ideal no es suerte, es estrategia."
+                "Encuentra el Talento Ideal para tu Empresa."
               </p>
             </div>
 
@@ -54,7 +53,7 @@ export function HeroSection() {
                 onClick={scrollToContact}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-6 text-lg"
               >
-                Contáctame
+                Contáctanos
               </Button>
               <Button
                 size="lg"
@@ -71,7 +70,7 @@ export function HeroSection() {
           {/* Right content - Professional photo placeholder */}
           <div className={`relative ${isVisible ? "animate-fade-in-up animate-delay-200" : "opacity-0"}`}>
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/professional-woman-business-portrait-elegant-offic.jpg" alt="Yaneth Pérez" className="object-cover w-full h-full" />
+              <img src="/RS-Human-Talent.jpeg" alt="RS Human Talent" className="object-cover w-full h-full" />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
