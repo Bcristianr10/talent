@@ -14,7 +14,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "RS Human Talent | Reclutamiento y Selección de personal humano",
+  title: "RS Human Talent | Reclutamiento y Selección de personal",
   description:
     "Servicios profesionales en selección y gestión de talento humano. Conectando el talento correcto con las oportunidades correctas.",
   generator: "mvp.solutions.507",

@@ -35,7 +35,7 @@ const whatsappLink =
                 Conectando el talento correcto con las oportunidades correctas
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
-                Reclutamiento y selección  de personal humano.
+                Reclutamiento y selección  de personal.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ const whatsappLink =
           {/* Right content - Professional photo placeholder */}
           <div className={`relative ${isVisible ? "animate-fade-in-up animate-delay-200" : "opacity-0"}`}>
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/RS-Human-Talent.jpeg" alt="RS Human Talent" className="object-cover w-full h-full" />
+              <img src="/Rs-Talent.jpeg" alt="RS Human Talent" className="object-cover w-full h-full" />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
