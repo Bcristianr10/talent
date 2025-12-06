@@ -15,7 +15,7 @@ export function HeroSection() {
     document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })
   }
 const whatsappLink =
-    "https://wa.me/50768943612?text=Hola%2C%20quisiera%20recibir%20información%20sobre%20los%20servicios%20de%20RS%20Human%20Talent"
+    "https://wa.me/50767397874?text=Hola%2C%20quisiera%20recibir%20información%20sobre%20los%20servicios%20de%20RS%20Human%20Talent"
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-background">
