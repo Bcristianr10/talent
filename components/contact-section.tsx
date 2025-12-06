@@ -42,7 +42,7 @@ export function ContactSection() {
   }
 
   const whatsappLink =
-    "https://wa.me/50768943612?text=Hola%2C%20quisiera%20recibir%20información%20sobre%20los%20servicios%20de%20RS%20Human%20Talent"
+    "https://wa.me/50767397874?text=Hola%2C%20quisiera%20recibir%20información%20sobre%20los%20servicios%20de%20RS%20Human%20Talent"
 
   return (
     <section ref={sectionRef} id="contacto" className="py-24 bg-background">
